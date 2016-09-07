@@ -1,0 +1,1878 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function	function"
+			],
+			[
+				"EN",
+				"env_path1"
+			],
+			[
+				"n",
+				"nul"
+			],
+			[
+				"v",
+				"VariableValue"
+			],
+			[
+				"P",
+				"PATH"
+			],
+			[
+				"A",
+				"add_path1"
+			],
+			[
+				"PATH",
+				"PATH_EXIST"
+			],
+			[
+				"url",
+				"url	param"
+			],
+			[
+				"me",
+				"method	param"
+			],
+			[
+				"Ex",
+				"Exception	class"
+			],
+			[
+				"exc",
+				"Exception	class"
+			],
+			[
+				"evnet",
+				"EventEngine	class"
+			],
+			[
+				"confi",
+				"configFilename	statement"
+			],
+			[
+				"inpu",
+				"fileinput"
+			],
+			[
+				"request",
+				"requests	module"
+			],
+			[
+				"t",
+				"tid"
+			],
+			[
+				"la",
+				"lattice	statement"
+			],
+			[
+				"ma",
+				"max	function"
+			],
+			[
+				"l",
+				"lattice	statement"
+			],
+			[
+				"ob",
+				"observation_prob	statement"
+			],
+			[
+				"has",
+				"has_key	function"
+			],
+			[
+				"stat",
+				"state_trans_prob	statement"
+			],
+			[
+				"b",
+				"bigram	forstmt"
+			],
+			[
+				"obs",
+				"observation_prob	statement"
+			],
+			[
+				"pr",
+				"previous_state	statement"
+			],
+			[
+				"cur",
+				"current_state	statement"
+			],
+			[
+				"o",
+				"observation	statement"
+			],
+			[
+				"clientNameTe",
+				"clientNameText"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"creates",
+				"http.createServer(requestListener);"
+			],
+			[
+				"r",
+				"readlines	function"
+			],
+			[
+				"coo",
+				"cookies"
+			],
+			[
+				"cl",
+				"close	function"
+			],
+			[
+				"list",
+				"listpage	param"
+			],
+			[
+				"lsitp",
+				"listpage"
+			],
+			[
+				"total",
+				"total_page"
+			],
+			[
+				"open",
+				"open_url	statement"
+			],
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"Key",
+				"KeyError	error"
+			],
+			[
+				"ex",
+				"except	keyword"
+			],
+			[
+				"Qt",
+				"QTimer"
+			],
+			[
+				"uni",
+				"unicode	unicode"
+			],
+			[
+				"glob",
+				"globals	globals"
+			],
+			[
+				"QT",
+				"QtCore"
+			],
+			[
+				"EVENT_O",
+				"EVENT_OREDER_ORDERREF"
+			],
+			[
+				"EVENT_TR",
+				"EVENT_TRADE_CONTRACT"
+			],
+			[
+				"EVENT_T",
+				"EVENT_TRADE"
+			],
+			[
+				"EVENT_M",
+				"EVENT_MARKETDATA_CONTRACT"
+			],
+			[
+				"glo",
+				"globals	globals"
+			],
+			[
+				"QTim",
+				"QTimer	class"
+			],
+			[
+				"import",
+				"import	keyword"
+			],
+			[
+				"Brokerid",
+				"BrokerID"
+			],
+			[
+				"Instrument",
+				"InstrumentID"
+			],
+			[
+				"instrument",
+				"InstrumentID"
+			],
+			[
+				"dif",
+				"defineDict	instance"
+			],
+			[
+				"ct",
+				"ctp_data_type	module"
+			],
+			[
+				"d",
+				"defs	Method"
+			],
+			[
+				"sup",
+				"super	super"
+			],
+			[
+				"td",
+				"td	todolist"
+			],
+			[
+				"__mongoC",
+				"__mongoConnection"
+			],
+			[
+				"k",
+				"kbd	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"h",
+				"html	html"
+			],
+			[
+				"ini",
+				"__init__	magic"
+			],
+			[
+				"f",
+				"foreach	<?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"s",
+				"select	Tag"
+			],
+			[
+				"p",
+				"pUserApi"
+			],
+			[
+				"pU",
+				"pUserSpi"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ge",
+				"get_page_by_url"
+			],
+			[
+				"se",
+				"seeother"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"pag",
+				"page_exits_validator"
+			],
+			[
+				"not",
+				"not_page_exits"
+			],
+			[
+				"get",
+				"get_page_by_url"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"ur",
+				"url_list"
+			],
+			[
+				"u",
+				"utf-8"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"pa",
+				"pages"
+			],
+			[
+				"page",
+				"pageNum"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"my",
+				"myresponse"
+			],
+			[
+				"li",
+				"listb"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/d/GitHub/MarI-O/MarI-O.sublime-project",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "set lu",
+		"selected_items":
+		[
+			[
+				"set lu",
+				"Set Syntax: Lua"
+			],
+			[
+				"git",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"gi",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"img",
+				"Snippet: img"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"encoding",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"set b",
+				"Set Syntax: Batch File"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sni",
+				"Snippet: PyUTF-8"
+			],
+			[
+				"snippet im",
+				"Snippet: img"
+			],
+			[
+				"set ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set cm",
+				"Set Syntax: CMakeEditor"
+			],
+			[
+				"set mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"set pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ut",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"tag",
+				"Tag: Remove All Tags in Document"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set ja",
+				"Set Syntax: Java"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"set she",
+				"Set Syntax: Batch File"
+			],
+			[
+				"script",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"set syntax:ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdw",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdowng",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"set p",
+				"Set Syntax: Python"
+			],
+			[
+				"set sy",
+				"Set Syntax: Python"
+			],
+			[
+				"snip",
+				"Snippet: PyUTF-8"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"coding",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"set h",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Format: Javascript"
+			],
+			[
+				"set j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"set mak",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sheel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"bra",
+				"BracketHighlighter: Select Bracket Content with Brackets"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"br",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"em",
+				"Emmet: Select Next Item"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"nodejs",
+				"Nodejs::NPM::List"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet m",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"snippet:c",
+				"Snippet: PyComment"
+			],
+			[
+				"snipp",
+				"Snippet: PyUTF-8"
+			],
+			[
+				"snippet",
+				"Snippet: Markdown_image_(mdi)"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"set pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set t",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set ",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				" SIPPET:T",
+				"Snippet: PyUTF-8"
+			],
+			[
+				"sinppet",
+				"Snippet: PyUTF-8"
+			],
+			[
+				"setm",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: PyUTF-8"
+			],
+			[
+				"set mr",
+				"Set Syntax: Markdown"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"setp Sy",
+				"Set Syntax: Python"
+			],
+			[
+				"set bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"snippet:t",
+				"Snippet: todolist"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"makr",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set c",
+				"Set Syntax: C++"
+			],
+			[
+				"save to",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"github",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"gith",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"m",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syna m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdownl",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"previo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set synax:css",
+				"Set Syntax: CSS"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mak",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set synatx m",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"makedo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set syntax mak",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"MA",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"MAK",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"SET M",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"se",
+				"Set Syntax: Markdown"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"rmov",
+				"Package Control: Remove Package"
+			],
+			[
+				"set sy m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"setmak",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"PH",
+				"Set Syntax: PHP"
+			],
+			[
+				"set a",
+				"Set Syntax: ASP"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sett",
+				"Set Syntax: Plain Text"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"\"python\" -u -mtrace -trace \"d:\\GitHub\\netstatutil\\netstatutil.py\"",
+			"ls",
+			"node",
+			"npm",
+			"test",
+			"python",
+			"python test.py",
+			"test.py",
+			"open(os.path.join( ipp, 'Package Control.sublime-package'), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest();",
+			"open(os.path.join( ipp, 'Package Control.sublime-package'), 'wb' )",
+			"p1=open(os.path.join(ipp,'Package Control.sublime-package'), 'wb' )",
+			"p1=open(os.path.join( ipp, pf), 'wb' )",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest();",
+			"open(os.path.join( ipp, 'Package Control.sublime-package'), 'wb' ).write(by)",
+			"open(os.path.join( ipp, 'sublimePackage'), 'wb' )",
+			"open(os.path.join( ipp, 'sublimePackage'), 'wb' ).write(by)",
+			"open(ipp, 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); ",
+			"open(ipp, 'wb' ).write(by)",
+			"ipp",
+			"open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"pf=''",
+			"open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"open(os.path.join( ipp, pf), 'wb' )",
+			"pf='PackageControl\\sublimePackage'",
+			"open(os.path.join( ipp, pf), 'wb' )",
+			"pf='PackageControl/sublimePackage'",
+			"open(os.path.join( ipp, pf))",
+			"h",
+			"print(dh)",
+			"dh = hashlib.sha256(by).hexdigest()",
+			"open(os.path.join( ipp, pf), 'wb' )",
+			"os.path.join( ipp, pf)",
+			"open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"h",
+			"dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"'http://sublime.wbond.net/' + pf.replace(' ', '%20')",
+			"pf",
+			"pf.replace(' ', '%20')",
+			"pf",
+			"(urllib.request.urlopen('http://sublime.wbond.net/')).read()",
+			"urllib.request.urlopen('http://sublime.wbond.net/')",
+			"urllib.request.urlopen('http://www.baidu.com')",
+			"urllib.rquest.urlopen('http://www.baidu.com')",
+			"urllib.rqeust.urlopen('http://www.baidu.com')",
+			"urllib.request.urlopen('http://sublime.wbond.net/' + pf.replace('','%20'))",
+			"open(os.path.join(ipp, pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/' + pf.replace('','%20')).read())",
+			"urllib.request.install_opener( urllib.request.build_opener(urllib.request.ProxyHandler()) ); ",
+			"print(p2)",
+			"p2=urllib.request.build_opener(p1)",
+			"urllib.request.build_opener(p1)",
+			"urllib.reqeust.build_opener(p1)",
+			"print(*p1)",
+			"print(p1)",
+			"p1=urllib.request.ProxyHandler()",
+			"print(ipp)",
+			"ipp=sublime.installed_packages_path()",
+			"pf='PackageControl.sublime-package'",
+			"import urllib.request,os"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/d/GitHub/MarI-O"
+	],
+	"file_history":
+	[
+		"/d/GitHub/MarI-O/MarI-O.sublime-project",
+		"/d/GitHub/netstatutil/tracelog",
+		"/d/GitHub/netstatutil/tracelog.txt",
+		"/D/Sublime Text 3/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/d/GitHub/netstatutil/netstatutil.py",
+		"/D/GitHub/vnpy/.gitignore",
+		"/D/Everything/.gitignore",
+		"/D/pcbackup/Desktop/piaolist_id.txt",
+		"/D/pcbackup/Desktop/piaolist.txt",
+		"/D/Git/cmd/gitclone.bat",
+		"/D/GitHub/tbxy09.github.io/062915.md",
+		"/D/mycmd/test3.bat",
+		"/D/mycmd/setEnv.bat",
+		"/D/batFiles/regexcel.bat",
+		"/D/batFiles/SetupExcel.bat",
+		"/D/mycmd/cdhelp.bat",
+		"/D/Everything/cli.c",
+		"/D/Everything/src/Everything.c",
+		"/D/mycmd/sublimepy.txt",
+		"/D/GitHub/cmd-title-stack/README.md",
+		"/D/mycmd/helpdic.js",
+		"/D/Everything/example/dll.test.c",
+		"/D/Everything/include/Everything.h",
+		"/d/mycmd/cdhelp.txt",
+		"/D/batFiles/makehelp.bat",
+		"/D/batFiles/install.bat",
+		"/D/VisualStudioCommunity2013/VC/VCWizards/AppWiz/MFC/Control/templates/1029/makehelp.bat",
+		"/D/batFiles/msdtcvtr.bat",
+		"/D/mycmd/vwifi.ps1",
+		"/D/batFiles/ant.bat",
+		"/D/Sublime Text 3/Data/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
+		"/d/GitHub/vnpy/temp0806.txt",
+		"/d/GitHub/temp0806.txt",
+		"/d/GitHub/cmd-tilte-stack",
+		"/D/Everything/everythingapi/everythingapi.h",
+		"/D/GitHub/PythonPrj/QTrade/1149351086/__builtin__.py",
+		"/D/batFiles/bootstrap.bat",
+		"/D/Xshell/ScriptSample/Session/xshell_session.js",
+		"/D/Xshell/ScriptSample/Session/xshell_session.vbs",
+		"/D/Xshell/ScriptSample/Session/xshell_session.py",
+		"/D/GitHub/test3.bat",
+		"/D/GitHub/test4.bat",
+		"/D/batFiles/_ResetData (2).bat",
+		"/D/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Sublime Text 3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/GitHub/tbxy09.github.io/mdfiles/043016",
+		"/D/GitHub/JapaneseSegmentation/single_knbc-train.xml",
+		"/D/Sublime Text 3/Data/Packages/User/Distraction Free.sublime-settings",
+		"/D/GitHub/vnpy/vn.xspeed/temp/vnxspeedtd.sln",
+		"/D/GitHub/RFIDIOt/demotag.py",
+		"/D/GitHub/tbxy09.github.io/mdfiles/071516.md",
+		"/D/GitHub/tbxy09.github.io/git分支管理.jpg",
+		"/D/GitHub/PythonPrj/test.py",
+		"/D/Sublime Text 3/Data/Settings/Workproject01.sublime-project",
+		"/D/mycmd/vituralwifistart.cmd",
+		"/D/GitHub/PythonPrj/tornado_helloword.py",
+		"/D/GitHub/PythonPrj/ion-icon-read.py",
+		"/D/GitHub/PythonPrj/icon-read-output.txt",
+		"/D/GitHub/tbxy09.github.io/mdfiles/062415.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/071416.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/index",
+		"/D/GitHub/tbxy09.github.io/mdfiles/042616.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/Emmet技巧.html",
+		"/D/GitHub/tbxy09.github.io/062415.md",
+		"/D/GitHub/tbxy09.github.io/ion-icon.txt",
+		"/D/GitHub/PythonPrj/Networm/matchprac.py",
+		"/D/GitHub/tbxy09.github.io/mdfiles/050616.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/043016.md",
+		"/D/GitHub/vnpy/vn.trader/vtGateway.py",
+		"/D/GitHub/vnpy/vn.trader/vtEngine.py",
+		"/D/GitHub/vnpy/vn.ctp/build/vnctpmd.vcxproj",
+		"/D/mycmd/pipinstall.bat",
+		"/D/GitHub/vnpy/vn.datayes/api.py",
+		"/D/GitHub/vnpy/vn.datayes/storage.py",
+		"/C/Users/Administrator.SKY-20150108YSF/SendTo/Desktop (create shortcut).DeskLink",
+		"/D/GitHub/tbxy09.github.io/mdfiles/072416.md",
+		"/D/mycmd/servicelist.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/052516.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/gitbashCommandRecord2.sh",
+		"/D/GitHub/tbxy09.github.io/mdfiles/160522.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/040316.md",
+		"/D/GitHub/JapaneseSegmentation/logfile.txt",
+		"/D/GitHub/vnpy/vn.trader/uiBasicWidget.py",
+		"/D/GitHub/vnpy/vn.trader/ctpGateway/ctpGateway.py",
+		"/D/GitHub/vnpy/vn.trader/uiMainWindow.py",
+		"/D/GitHub/tbxy09.github.io/mdfiles/062216.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/061216.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/042516.md",
+		"/D/GitHub/vnpy/vn.lts/pyscript/l2/SecurityFtdcL2MDUserApi.h",
+		"/D/GitHub/vnpy/vn.archive/vn.lts_old/pyscript/generate_td_functions.py",
+		"/D/vnctpVsProj/vnctpVsProj/vnctpVsProj/vnctpVsProj.vcxproj",
+		"/D/GitHub/vnpy/vn.xspeed/vnxspeedmd/vnxspeedmd/vnxspeedmd.h",
+		"/D/GitHub/vnpy/vn.xspeed/vnxspeedtd/vnxspeedtd/vnxspeedtd.h",
+		"/D/GitHub/tbxy09.github.io/031316.md",
+		"/D/GitHub/vnpy/vn.ctp/vnctptd/test/vnctptd.pyd",
+		"/D/GitHub/vnpy/vn.ctp/vnctpmd/test/vnctpmd.pyd",
+		"/D/GitHub/vnpy/vn.trader/ctaAlgo/CTA_setting.json",
+		"/D/GitHub/vnpy/vn.trader/ctaAlgo/ctaEngine.py",
+		"/D/nodejs/node_modules/ionic/node_modules/node-sass/src/libsass/docs/build-with-mingw.md",
+		"/D/GitHub/tbxy09.github.io/031216.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/060916.md",
+		"/D/GitHub/vnpy/vn.datayes/README.md",
+		"/D/GitHub/vnpy/vn.ctp/readme.md",
+		"/D/GitHub/tbxy09.github.io/mdfiles/070315.md",
+		"/D/GitHub/vnpy/vn.xspeed/vnxspeedtd/Visual Studio 2013/settings/Windows Azure Subscriptions.xml",
+		"/D/Sublime Text 3/Data/Packages/User/JSON.sublime-settings",
+		"/D/GitHub/vnpy/vn.ksgold/vnksgoldtd/vnksgoldtd/vnksgoldtd.h",
+		"/D/GitHub/vnpy/vn.ksgold/vnksgoldtd/vnksgoldtd/vnksgoldtd.cpp",
+		"/D/GitHub/vnpy/vn.ksgold/vnksgoldtd/vnksgoldtd/targetver.h",
+		"/D/GitHub/vnpy/vn.ksgold/vnksgoldtd/vnksgoldtd/stdafx.cpp",
+		"/D/GitHub/vnpy/vn.ksgold/vnksgoldtd/vnksgoldtd/dllmain.cpp",
+		"/D/GitHub/vnpy/vn.femas/README.md",
+		"/D/GitHub/vnpy/vn.datayes/tests.py",
+		"/D/GitHub/PythonPrj/wondaApiTest.py",
+		"/D/GitHub/vnpy/vn.xspeed/vnxspeedtd/vnxspeedtd/vnxspeedtd.cpp",
+		"/D/GitHub/vnpy/vn.xspeed/vnxspeedmd/vnxspeedmd/vnxspeedmd.cpp",
+		"/D/GitHub/vnpy/vn.xspeed/pyscript/DFITCMdApi.h",
+		"/D/GitHub/vnpy/vn.xspeed/xspeedapi/DFITCTraderApi.h",
+		"/D/GitHub/vnpy/vn.xspeed/xspeedapi/DFITCApiDataType.h",
+		"/D/boost_1_58_0/tools/build/src/engine/build.bat",
+		"/D/boost_1_58_0/bootstrap.bat",
+		"/D/GitHub/vnpy/vn.ctp/CMakeLists.txt",
+		"/D/GitHub/vnpy/vn.ctp/build.sh",
+		"/D/Python2.7.9/dowload/lxml-3.6.0/setup.py",
+		"/D/Python2.7.9/dowload/lxml-3.6.0/Makefile",
+		"/D/GitHub/tbxy09.github.io/mdfiles/060816.md",
+		"/D/Python2.7.9/dowload/lxml-3.6.0/buildlibxml.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\Everything",
+			"D:\\batFiles",
+			"D:\\mycmd",
+			"D:\\batFiles",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\vnpy\\vn.datayes",
+			"D:\\GitHub\\vnpy",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\mycmd",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\vnpy",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\vnpy",
+			"D:\\GitHub\\vnpy\\vn.xspeed",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\vnpy\\vn.xspeed",
+			"D:\\GitHub\\vnpy",
+			"D:\\vn.ctp",
+			"D:\\GitHub\\vnpy",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\vnpy",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\mycmd",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\tbxy09.github.io,<open folders>",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\dict_uk",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\PythonPrj",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\haloword\\include",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles\\gitbashCommandRecord2.sh",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles\\041816.md",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\PythonPrj",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\JapaneseSegmentation",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\haloword\\include",
+			"D:\\GitHub\\haloword",
+			"D:\\GitHub\\bleno\\examples\\blink1",
+			"D:\\GitHub\\bleno\\examples\\battery-service",
+			"D:\\GitHub\\Nodejs\\SocketIO",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\Nodejs",
+			"D:\\GitHub\\Nodejs\\SocketIO",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\rtl8192eu-linux-driver",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\vnpy-master",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\RFIDIOt\\rfidiot",
+			"D:\\GitHub\\RFIDIOt",
+			"D:\\GitHub\\PythonPrj\\RFIDIOT\\rfidiot\\RFIDIOt.py",
+			"D:\\GitHub\\RFIDIOt\\rfidiot\\RFIDIOt.py",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\vnpy-master\\vn.demo",
+			"D:\\vnpy-master\\vn.demo\\ctpdemo\\demoApi.py",
+			"D:\\vnpy-master\\vn.demo\\ctpdemo\\demoEngine.py",
+			"D:\\GitHub\\PythonPrj\\MultiThread\\threadingcopy.py",
+			"D:\\GitHub\\PythonPrj\\QTrade",
+			"D:\\vn.ctp",
+			"D:\\GitHub\\PythonPrj\\QTrade",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\material\\PythonPrj\\Networm",
+			"D:\\material\\PythonPrj\\Networm\\japanesepod101cat12.txt",
+			"D:\\GitHub\\PythonPrj\\QTrade",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\tbxy09.github.io\\mdfile",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles\\gitbashCommandRecord.sh",
+			"D:\\GitHub\\PythonPrj\\UnderLineTest",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\vnpy\\vn.demo",
+			"D:\\GitHub\\vnpy\\vn.demo\\ctpdemo\\tdconnection",
+			"D:\\GitHub\\vnpy\\vn.demo",
+			"D:\\GitHub\\vnpy",
+			"D:\\GitHub\\tbxy09.github.io\\mdfiles",
+			"D:\\GitHub\\tbxy09.github.io",
+			"D:\\vnpy-master\\vn.strategy",
+			"D:\\vnpy-master",
+			"D:\\vn.ctp",
+			"D:\\vn.ctp\\vnctptd",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug,C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\3da01b5\\3da01b5\\Debug0",
+			"C:\\Users\\Administrator.SKY-20150108YSF\\.clion10\\system\\cmake\\generated\\7ce5d189\\7ce5d189\\Debug",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"verbo",
+			"_note",
+			"threading",
+			"thread",
+			"_sys.stderr",
+			"VERBOSE",
+			"__stderr",
+			"subprocess",
+			"tuple(",
+			"tuple",
+			"type(",
+			"type",
+			"os.",
+			"os.cmd",
+			"subprocess",
+			"cmake",
+			"mingw",
+			"cmake",
+			"oneyardline",
+			"lpString",
+			"();\n",
+			"LPCWSTR",
+			"print_help",
+			"print",
+			".txt",
+			"在",
+			"当前",
+			"命令不把空格当作分隔符",
+			"CHDIR 命令不把空格当作分隔符",
+			"help",
+			"rem ",
+			":~",
+			"!",
+			"echo",
+			"*",
+			"findstr",
+			"\\n",
+			"\\r\\n",
+			"if not",
+			"if not else",
+			"if not * else",
+			"if not*else",
+			"if not",
+			"else",
+			"mongo",
+			"000413",
+			"0004",
+			"000413",
+			"line_numbers",
+			"20150513",
+			"38cb793c8450e711c083ea774511cb9646863fdd1e4606268a7208f6278281fa",
+			"575593eb76",
+			"toke",
+			" ",
+			"toke",
+			"errors.py",
+			"git remote",
+			"git branch",
+			"git",
+			"http:",
+			"http:\\\\",
+			"mywifi",
+			"ssid",
+			"mywifi",
+			"ssid",
+			"pipcache",
+			"tag",
+			"git tag",
+			"git commit",
+			"dpi",
+			"git fetch",
+			"dpi",
+			"dip",
+			".dip",
+			"pipcache",
+			"ctaAlgo",
+			"mingw",
+			"命令行",
+			"vc命令行",
+			"CMAKE_BINARY_DIR",
+			"LIBRARY_OUTPUT_PATH",
+			"python",
+			"pthread",
+			"pthread.h",
+			"PYTHON_LIBRARY",
+			"Boost_LIBRARIES",
+			"CTPAPI_MD_LIBRARY",
+			"Boost_LIBRARIES",
+			"Boost_INCLUDE_DIRS",
+			"Boost_LIBRARIES",
+			"python",
+			"boost",
+			"boost_python",
+			"pipinstal",
+			"CMake",
+			"clmake",
+			"catch",
+			"快期",
+			"boost/python",
+			"module",
+			"AppWizard",
+			"lts_l2_function",
+			"lts_td_function",
+			"processFunction",
+			"createFunction",
+			"find ./",
+			"find /",
+			"pipinstall",
+			"VtGateway",
+			"MainEngine",
+			"登录",
+			"RM_setting",
+			"M_setting",
+			"gateway",
+			"MainEngine",
+			"workingOrderCount",
+			"orderFlowCount",
+			"tradeCount",
+			"orderReq",
+			"'SGIT'",
+			"VtSubscribeReq",
+			"tickSettings",
+			"codecs",
+			"observation_prob",
+			"git",
+			"git remote add",
+			"git add",
+			"$ git"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"::",
+			"#",
+			"REM ",
+			"0x",
+			"\\",
+			"</span>\\n",
+			";\\n",
+			"",
+			";\\n",
+			"",
+			"\"",
+			"",
+			"\\n",
+			"",
+			"&dummy=\\n",
+			"%2F",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"http://www.japanesepod101.com/pdfs",
+			"%2F",
+			"Producer2",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/d/GitHub/MarI-O/MarI-O.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										229,
+										230
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 94.0
+	},
+	"output.nodejs":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Lua Build System",
+	"project": "MarI-O.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"liebiaojiexi.py"
+			],
+			[
+				"python",
+				"python.py"
+			],
+			[
+				"python.py",
+				"python.py"
+			],
+			[
+				"liebiaoji",
+				"liebiaojiexi.py"
+			],
+			[
+				"readme",
+				"readme.md"
+			],
+			[
+				"everything.h",
+				"Everything\\include\\Everything.h"
+			],
+			[
+				"dll.",
+				"Everything\\example\\dll.test.c"
+			],
+			[
+				"fin",
+				"Find Results"
+			],
+			[
+				"setupe",
+				"batFiles\\SetupExcel.bat"
+			],
+			[
+				"git",
+				"git分支管理.jpg - IFS"
+			],
+			[
+				"cta_",
+				"vnpy\\vn.trader\\ctaAlgo\\CTA_setting.json"
+			],
+			[
+				"vcxproj",
+				"vnpy\\vn.xspeed\\vnxspeedtd\\vnxspeedtd\\vnxspeedtd.vcxproj"
+			],
+			[
+				"generate_td",
+				"vnpy\\vn.lts\\pyscript\\generate_td_functions.py"
+			],
+			[
+				"generate_td_functions.py",
+				"vn.ctp\\pyscript\\generate_td_functions.py"
+			],
+			[
+				"vte",
+				"vnpy\\vn.trader\\vtEngine.py"
+			],
+			[
+				"vt",
+				"vnpy\\vn.trader\\vtEngine.py"
+			],
+			[
+				"vtm",
+				"vnpy\\vn.trader\\vtMain.py"
+			],
+			[
+				"emme",
+				"tbxy09.github.io\\mdfiles\\Emmet技巧.md"
+			],
+			[
+				"m",
+				"PythonPrj\\Networm\\matchprac.py"
+			],
+			[
+				"ion-",
+				"tbxy09.github.io\\ion-icon.txt"
+			],
+			[
+				"0430",
+				"tbxy09.github.io\\mdfiles\\043016.md"
+			],
+			[
+				"正则",
+				"tbxy09.github.io\\mdfiles\\正则"
+			],
+			[
+				"mat",
+				"PythonPrj\\Networm\\matchprac.py"
+			],
+			[
+				"api",
+				"tbxy09.github.io\\mdfiles\\API.md"
+			],
+			[
+				"pipin",
+				"mycmd\\pipinstall.bat"
+			],
+			[
+				"f",
+				"RFIDIOt\\fdxbnum.py"
+			],
+			[
+				"sub",
+				"D:\\GitHub\\PythonPrj\\winScripts\\subprocess.py"
+			],
+			[
+				"build.cm",
+				"icsmanager\\build.cmd"
+			],
+			[
+				"service",
+				"mycmd\\servicelist.md"
+			],
+			[
+				"vwifi",
+				"mycmd\\Vwifistart.cmd"
+			],
+			[
+				"match",
+				"PythonPrj\\Networm\\matchprac.py"
+			],
+			[
+				"0425",
+				"tbxy09.github.io\\mdfiles\\042516.md"
+			],
+			[
+				"fi",
+				"Find Results"
+			],
+			[
+				"redir",
+				"PythonPrj\\Networm\\redirect_lessonlist.txt"
+			],
+			[
+				"matp",
+				"PythonPrj\\Networm\\matchprac.py"
+			],
+			[
+				"jpjf",
+				"tbxy09.github.io\\mdfiles\\jpjf.md"
+			],
+			[
+				"jpj",
+				"tbxy09.github.io\\mdfiles\\jpjf.md"
+			],
+			[
+				"isv",
+				"openapi-demo-java\\src\\com\\alibaba\\dingtalk\\openapi\\servlet\\IsvReceiveServlet.java"
+			],
+			[
+				"isvre",
+				"openapi-demo-java\\src\\com\\alibaba\\dingtalk\\openapi\\servlet\\IsvReceiveServlet.java"
+			],
+			[
+				"0414",
+				"tbxy09.github.io\\mdfiles\\041416.md"
+			],
+			[
+				"single",
+				"JapaneseSegmentation\\single_knbc-hmm.xml"
+			],
+			[
+				"tato",
+				"rakutenma\\tatoeba.json"
+			],
+			[
+				"temp",
+				"tbxy09.github.io\\temp.js"
+			],
+			[
+				"rf",
+				"RFIDIOt\\rfidiot\\RFIDIOt.py"
+			],
+			[
+				"rfi",
+				"RFIDIOt\\rfidiot\\RFIDIOt.py"
+			],
+			[
+				"032916",
+				"tbxy09.github.io\\mdfiles\\032916.md"
+			],
+			[
+				"namelis",
+				"Networm\\pdfnamelist.txt"
+			],
+			[
+				"makrdown",
+				"D:\\Sublime Text 3\\Data\\Packages\\Markdown Preview\\MarkdownPreview.sublime-settings"
+			],
+			[
+				"usbde",
+				"libraries\\USBDevice\\USBDevice\\USBDevice.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"\\\\DESKTOP-3D4ARMN\\Users\\Public\\FtpSync.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

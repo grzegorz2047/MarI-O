@@ -904,6 +904,8 @@ function displayGenome(genome)
     biasCell.value = network.neurons[Inputs].value
     cells[Inputs] = biasCell
     
+    -- cell is filled with network.neurons[MaxNodes + o].value
+    -- o is the index
     for o = 1,Outputs do
         cell = {}
         cell.x = 220
@@ -918,8 +920,13 @@ function displayGenome(genome)
         end
         gui.drawText(223, 24+8*o, ButtonNames[o], color, 9)
     end
-    
+    -- file = io.open("debuglog.txt", "w")
+    console.writeline("open debuglog")
     for n,neuron in pairs(network.neurons) do
+        console.writeline(n .. " " .. neuron.value)
+        -- file:write(n .. " ")
+        -- file.write(neuron.value .. " ")
+        
         cell = {}
         if n > Inputs and n <= MaxNodes then
             cell.x = 140
@@ -928,7 +935,7 @@ function displayGenome(genome)
             cells[n] = cell
         end
     end
-    
+    -- file:close
     for n=1,4 do
         for _,gene in pairs(genome.genes) do
             if gene.enabled then
@@ -965,13 +972,13 @@ function displayGenome(genome)
             end
         end
     end
-    
+    -- 0x80808080
     gui.drawBox(50-BoxRadius*5-3,70-BoxRadius*5-3,50+BoxRadius*5+2,70+BoxRadius*5+2,0xFF000000, 0x80808080)
     for n,cell in pairs(cells) do
         if n > Inputs or cell.value ~= 0 then
             local color = math.floor((cell.value+1)/2*256)
             if color > 255 then color = 255 end
-            if color < 0 then color = 0 end
+            if color < 0 then color = 255 end
             local opacity = 0xFF000000
             if cell.value == 0 then
                 opacity = 0x50000000
@@ -998,7 +1005,7 @@ function displayGenome(genome)
             gui.drawLine(c1.x+1, c1.y, c2.x-3, c2.y, color)
         end
     end
-    
+    -- 0x00000000
     gui.drawBox(49,71,51,78,0x00000000,0x80FF0000)
     
     if forms.ischecked(showMutationRates) then
@@ -1193,7 +1200,7 @@ while true do
             writeFile("backup." .. pool.generation .. "." .. forms.gettext(saveLoadFile))
         end
         
-        console.writeline("Gen " .. pool.generation .. " species " .. pool.currentSpecies .. " genome " .. pool.currentGenome .. " fitness: " .. fitness)
+        -- console.writeline("Gen " .. pool.generation .. " species " .. pool.currentSpecies .. " genome " .. pool.currentGenome .. " fitness: " .. fitness)
         pool.currentSpecies = 1
         pool.currentGenome = 1
         while fitnessAlreadyMeasured() do

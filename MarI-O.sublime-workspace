@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"v",
+				"value"
+			],
+			[
+				"writ",
+				"writeline"
+			],
+			[
 				"fu",
 				"function	function"
 			],
@@ -14,10 +22,6 @@
 			[
 				"n",
 				"nul"
-			],
-			[
-				"v",
-				"VariableValue"
 			],
 			[
 				"P",
@@ -363,7 +367,31 @@
 			"file": "DP1.state.pool",
 			"settings":
 			{
-				"buffer_size": 547766,
+				"buffer_size": 451758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "luaAPI.lua",
+			"settings":
+			{
+				"buffer_size": 809,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Python2.7.9/dowload/readme.md",
+			"settings":
+			{
+				"buffer_size": 349,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 861,
 				"line_ending": "Windows"
 			}
 		},
@@ -376,14 +404,12 @@
 			}
 		},
 		{
-			"contents": "marioX = memory.read_s16_le(0x94)\nmarioY = memory.read_s16_le(0x96)\npool.generation\npool.currentSpecies\npool.currentGenome\nfitness\n\n\n-- defined in newGenome()\ngenome.genes\ngenome.fitness\ngenome.adjustedFitness\ngenome.network\ngenome.maxneuron\ngenome.globalRank\ngenome.mutationRates\ngenome.mutationRates[\"connections\"]\ngenome.mutationRates[\"link\"]\ngenome.mutationRates[\"bias\"]\ngenome.mutationRate[\"node\"]\ngenome.mutationRates[\"enable\"]\ngenome.mutationRates[\"disable\"]\ngenome.mutationRates[\"step\"]\n\n\n\n",
-			"file": "luaAPI.lua",
-			"file_size": 0,
-			"file_write_time": 131177085572446315,
+			"contents": "39\n39\n43\n40\n42\n43\n35\n42\n41\n40\n42\n42\n42\n41\n35\n34\n36\n49\n54\n53\n53\n54\n54\n53\n46\n49\n77\n79\n89\n85\n53\n63\n50\n52\n62\n53\n51\n54\n54\n53\n63\n79\n76\n78\n77\n66\n26\n23\n51\n55\n53\n62\n59\n58\n56\n62\n51\n23\n26\n21\n43\n51\n61\n50\n45\n51\n61\n49\n60\n46\n66\n70\n48\n50\n48\n53\n53\n50\n63\n62\n67\n67\n54\n65\n54\n68\n59\n62\n60\n59\n65\n64\n67\n38\n39\n42\n39\n44\n39\n43\n43\n42\n43\n43\n43\n47\n48\n48\n47\n45\n47\n52\n55\n55\n53\n52\n53\n55\n54\n52\n51\n55\n60\n66\n82\n77\n81\n82\n76\n76\n77\n77\n55\n63\n70\n61\n64\n61\n58\n36\n47\n48\n50\n49\n51\n51\n49\n50\n48\n50\n47\n48\n51\n48\n69\n73\n70\n73\n71\n71\n72\n69\n72\n72\n69\n74\n71\n68\n75\n67\n73\n59\n62\n66\n67\n43\n51\n46\n47\n45\n47\n51\n51\n47\n53\n59\n57\n52\n57\n39\n41\n53\n60\n58\n58\n58\n55\n58\n55\n30\n31\n33\n55\n59\n59\n57\n57\n63\n59\n71\n65\n70\n57\n58\n61\n63\n42\n43\n47\n62\n70\n67\n69\n68\n66\n70\n69\n65\n66\n70\n70\n64\n56\n63\n57\n62\n70\n70\n58\n70\n60\n53\n55\n57\n56\n55\n59\n49\n56\n52\n56\n55\n51\n52\n56\n50\n51\n50\n57\n56\n50\n56\n56\n33\n35\n36\n38\n60\n63\n62\n60\n62\n64\n63\n61\n64\n70\n69\n68\n71\n69\n69\n65\n73\n66\n51\n50\n54\n50\n51\n51\n52\n50\n53\n53\n51\n51\n52\n50\n54",
 			"settings":
 			{
-				"buffer_size": 498,
-				"line_ending": "Windows"
+				"buffer_size": 899,
+				"line_ending": "Windows",
+				"name": "39"
 			}
 		},
 		{
@@ -395,10 +421,13 @@
 			}
 		},
 		{
+			"contents": "-- MarI/O by SethBling\n-- Feel free to use this code, but please do not redistribute it.\n-- Intended for use with the BizHawk emulator and Super Mario World or Super Mario Bros. ROM.\n-- For SMW, make sure you have a save state named \"DP1.state\" at the beginning of a level,\n-- and put a copy in both the Lua folder and the root directory of BizHawk.\n\nif gameinfo.getromname() == \"Super Mario World (USA)\" then\n    Filename = \"DP1.state\"\n    ButtonNames = {\n        \"A\",\n        \"B\",\n        \"X\",\n        \"Y\",\n        \"Up\",\n        \"Down\",\n        \"Left\",\n        \"Right\",\n    }\nelseif gameinfo.getromname() == \"Super Mario Bros.\" then\n    Filename = \"SMB1-1.state\"\n    ButtonNames = {\n        \"A\",\n        \"B\",\n        \"Up\",\n        \"Down\",\n        \"Left\",\n        \"Right\",\n    }\nend\n\nBoxRadius = 6\nInputSize = (BoxRadius*2+1)*(BoxRadius*2+1)\n\nInputs = InputSize+1\nOutputs = #ButtonNames\n\nPopulation = 300\nDeltaDisjoint = 2.0\nDeltaWeights = 0.4\nDeltaThreshold = 1.0\n\nStaleSpecies = 15\n\nMutateConnectionsChance = 0.25\nPerturbChance = 0.90\nCrossoverChance = 0.75\nLinkMutationChance = 2.0\nNodeMutationChance = 0.50\nBiasMutationChance = 0.40\nStepSize = 0.1\nDisableMutationChance = 0.4\nEnableMutationChance = 0.2\n\nTimeoutConstant = 20\n\nMaxNodes = 1000000\n\nfunction getPositions()\n    if gameinfo.getromname() == \"Super Mario World (USA)\" then\n        marioX = memory.read_s16_le(0x94)\n        marioY = memory.read_s16_le(0x96)\n        \n        local layer1x = memory.read_s16_le(0x1A);\n        local layer1y = memory.read_s16_le(0x1C);\n        \n        screenX = marioX-layer1x\n        screenY = marioY-layer1y\n    elseif gameinfo.getromname() == \"Super Mario Bros.\" then\n        marioX = memory.readbyte(0x6D) * 0x100 + memory.readbyte(0x86)\n        marioY = memory.readbyte(0x03B8)+16\n    \n        screenX = memory.readbyte(0x03AD)\n        screenY = memory.readbyte(0x03B8)\n    end\nend\n\nfunction getTile(dx, dy)\n    if gameinfo.getromname() == \"Super Mario World (USA)\" then\n        x = math.floor((marioX+dx+8)/16)\n        y = math.floor((marioY+dy)/16)\n        \n        return memory.readbyte(0x1C800 + math.floor(x/0x10)*0x1B0 + y*0x10 + x%0x10)\n    elseif gameinfo.getromname() == \"Super Mario Bros.\" then\n        local x = marioX + dx + 8\n        local y = marioY + dy - 16\n        local page = math.floor(x/256)%2\n\n        local subx = math.floor((x%256)/16)\n        local suby = math.floor((y - 32)/16)\n        local addr = 0x500 + page*13*16+suby*16+subx\n        \n        if suby >= 13 or suby < 0 then\n            return 0\n        end\n        \n        if memory.readbyte(addr) ~= 0 then\n            return 1\n        else\n            return 0\n        end\n    end\nend\n\nfunction getSprites()\n    if gameinfo.getromname() == \"Super Mario World (USA)\" then\n        local sprites = {}\n        for slot=0,11 do\n            local status = memory.readbyte(0x14C8+slot)\n            if status ~= 0 then\n                spritex = memory.readbyte(0xE4+slot) + memory.readbyte(0x14E0+slot)*256\n                spritey = memory.readbyte(0xD8+slot) + memory.readbyte(0x14D4+slot)*256\n                sprites[#sprites+1] = {[\"x\"]=spritex, [\"y\"]=spritey}\n            end\n        end     \n        \n        return sprites\n    elseif gameinfo.getromname() == \"Super Mario Bros.\" then\n        local sprites = {}\n        for slot=0,4 do\n            local enemy = memory.readbyte(0xF+slot)\n            if enemy ~= 0 then\n                local ex = memory.readbyte(0x6E + slot)*0x100 + memory.readbyte(0x87+slot)\n                local ey = memory.readbyte(0xCF + slot)+24\n                sprites[#sprites+1] = {[\"x\"]=ex,[\"y\"]=ey}\n            end\n        end\n        \n        return sprites\n    end\nend\n\nfunction getExtendedSprites()\n    if gameinfo.getromname() == \"Super Mario World (USA)\" then\n        local extended = {}\n        for slot=0,11 do\n            local number = memory.readbyte(0x170B+slot)\n            if number ~= 0 then\n                spritex = memory.readbyte(0x171F+slot) + memory.readbyte(0x1733+slot)*256\n                spritey = memory.readbyte(0x1715+slot) + memory.readbyte(0x1729+slot)*256\n                extended[#extended+1] = {[\"x\"]=spritex, [\"y\"]=spritey}\n            end\n        end     \n        \n        return extended\n    elseif gameinfo.getromname() == \"Super Mario Bros.\" then\n        return {}\n    end\nend\n\nfunction getInputs()\n    getPositions()\n    \n    sprites = getSprites()\n    extended = getExtendedSprites()\n    \n    local inputs = {}\n    \n    for dy=-BoxRadius*16,BoxRadius*16,16 do\n        for dx=-BoxRadius*16,BoxRadius*16,16 do\n            inputs[#inputs+1] = 0\n            \n            tile = getTile(dx, dy)\n            if tile == 1 and marioY+dy < 0x1B0 then\n                inputs[#inputs] = 1\n            end\n            \n            for i = 1,#sprites do\n                distx = math.abs(sprites[i][\"x\"] - (marioX+dx))\n                disty = math.abs(sprites[i][\"y\"] - (marioY+dy))\n                if distx <= 8 and disty <= 8 then\n                    inputs[#inputs] = -1\n                end\n            end\n\n            for i = 1,#extended do\n                distx = math.abs(extended[i][\"x\"] - (marioX+dx))\n                disty = math.abs(extended[i][\"y\"] - (marioY+dy))\n                if distx < 8 and disty < 8 then\n                    inputs[#inputs] = -1\n                end\n            end\n        end\n    end\n    \n    --mariovx = memory.read_s8(0x7B)\n    --mariovy = memory.read_s8(0x7D)\n    \n    return inputs\nend\n\nfunction sigmoid(x)\n    return 2/(1+math.exp(-4.9*x))-1\nend\n\nfunction newInnovation()\n    pool.innovation = pool.innovation + 1\n    return pool.innovation\nend\n\nfunction newPool()\n    local pool = {}\n    pool.species = {}\n    pool.generation = 0\n    pool.innovation = Outputs\n    pool.currentSpecies = 1\n    pool.currentGenome = 1\n    pool.currentFrame = 0\n    pool.maxFitness = 0\n    \n    return pool\nend\n\nfunction newSpecies()\n    local species = {}\n    species.topFitness = 0\n    species.staleness = 0\n    species.genomes = {}\n    species.averageFitness = 0\n    \n    return species\nend\n\nfunction newGenome()\n    local genome = {}\n    genome.genes = {}\n    genome.fitness = 0\n    genome.adjustedFitness = 0\n    genome.network = {}\n    genome.maxneuron = 0\n    genome.globalRank = 0\n    genome.mutationRates = {}\n    genome.mutationRates[\"connections\"] = MutateConnectionsChance\n    genome.mutationRates[\"link\"] = LinkMutationChance\n    genome.mutationRates[\"bias\"] = BiasMutationChance\n    genome.mutationRates[\"node\"] = NodeMutationChance\n    genome.mutationRates[\"enable\"] = EnableMutationChance\n    genome.mutationRates[\"disable\"] = DisableMutationChance\n    genome.mutationRates[\"step\"] = StepSize\n    \n    return genome\nend\n\nfunction copyGenome(genome)\n    local genome2 = newGenome()\n    for g=1,#genome.genes do\n        table.insert(genome2.genes, copyGene(genome.genes[g]))\n    end\n    genome2.maxneuron = genome.maxneuron\n    genome2.mutationRates[\"connections\"] = genome.mutationRates[\"connections\"]\n    genome2.mutationRates[\"link\"] = genome.mutationRates[\"link\"]\n    genome2.mutationRates[\"bias\"] = genome.mutationRates[\"bias\"]\n    genome2.mutationRates[\"node\"] = genome.mutationRates[\"node\"]\n    genome2.mutationRates[\"enable\"] = genome.mutationRates[\"enable\"]\n    genome2.mutationRates[\"disable\"] = genome.mutationRates[\"disable\"]\n    \n    return genome2\nend\n\nfunction basicGenome()\n    local genome = newGenome()\n    local innovation = 1\n\n    genome.maxneuron = Inputs\n    mutate(genome)\n    \n    return genome\nend\n\nfunction newGene()\n    local gene = {}\n    gene.into = 0\n    gene.out = 0\n    gene.weight = 0.0\n    gene.enabled = true\n    gene.innovation = 0\n    \n    return gene\nend\n\nfunction copyGene(gene)\n    local gene2 = newGene()\n    gene2.into = gene.into\n    gene2.out = gene.out\n    gene2.weight = gene.weight\n    gene2.enabled = gene.enabled\n    gene2.innovation = gene.innovation\n    \n    return gene2\nend\n\nfunction newNeuron()\n    local neuron = {}\n    neuron.incoming = {}\n    neuron.value = 0.0\n    \n    return neuron\nend\n\nfunction generateNetwork(genome)\n    local network = {}\n    network.neurons = {}\n    \n    for i=1,Inputs do\n        network.neurons[i] = newNeuron()\n    end\n    \n    for o=1,Outputs do\n        network.neurons[MaxNodes+o] = newNeuron()\n    end\n    \n    table.sort(genome.genes, function (a,b)\n        return (a.out < b.out)\n    end)\n    for i=1,#genome.genes do\n        local gene = genome.genes[i]\n        if gene.enabled then\n            if network.neurons[gene.out] == nil then\n                network.neurons[gene.out] = newNeuron()\n            end\n            local neuron = network.neurons[gene.out]\n            table.insert(neuron.incoming, gene)\n            if network.neurons[gene.into] == nil then\n                network.neurons[gene.into] = newNeuron()\n            end\n        end\n    end\n    \n    genome.network = network\nend\n\nfunction evaluateNetwork(network, inputs)\n    table.insert(inputs, 1)\n    if #inputs ~= Inputs then\n        console.writeline(\"Incorrect number of neural network inputs.\")\n        return {}\n    end\n    \n    for i=1,Inputs do\n        network.neurons[i].value = inputs[i]\n    end\n    \n    for _,neuron in pairs(network.neurons) do\n        local sum = 0\n        for j = 1,#neuron.incoming do\n            local incoming = neuron.incoming[j]\n            local other = network.neurons[incoming.into]\n            sum = sum + incoming.weight * other.value\n        end\n        \n        if #neuron.incoming > 0 then\n            neuron.value = sigmoid(sum)\n        end\n    end\n    \n    local outputs = {}\n    for o=1,Outputs do\n        local button = \"P1 \" .. ButtonNames[o]\n        if network.neurons[MaxNodes+o].value > 0 then\n            outputs[button] = true\n        else\n            outputs[button] = false\n        end\n    end\n    \n    return outputs\nend\n\nfunction crossover(g1, g2)\n    -- Make sure g1 is the higher fitness genome\n    if g2.fitness > g1.fitness then\n        tempg = g1\n        g1 = g2\n        g2 = tempg\n    end\n\n    local child = newGenome()\n    \n    local innovations2 = {}\n    for i=1,#g2.genes do\n        local gene = g2.genes[i]\n        innovations2[gene.innovation] = gene\n    end\n    \n    for i=1,#g1.genes do\n        local gene1 = g1.genes[i]\n        local gene2 = innovations2[gene1.innovation]\n        if gene2 ~= nil and math.random(2) == 1 and gene2.enabled then\n            table.insert(child.genes, copyGene(gene2))\n        else\n            table.insert(child.genes, copyGene(gene1))\n        end\n    end\n    \n    child.maxneuron = math.max(g1.maxneuron,g2.maxneuron)\n    \n    for mutation,rate in pairs(g1.mutationRates) do\n        child.mutationRates[mutation] = rate\n    end\n    \n    return child\nend\n\nfunction randomNeuron(genes, nonInput)\n    local neurons = {}\n    if not nonInput then\n        for i=1,Inputs do\n            neurons[i] = true\n        end\n    end\n    for o=1,Outputs do\n        neurons[MaxNodes+o] = true\n    end\n    for i=1,#genes do\n        if (not nonInput) or genes[i].into > Inputs then\n            neurons[genes[i].into] = true\n        end\n        if (not nonInput) or genes[i].out > Inputs then\n            neurons[genes[i].out] = true\n        end\n    end\n\n    local count = 0\n    for _,_ in pairs(neurons) do\n        count = count + 1\n    end\n    local n = math.random(1, count)\n    \n    for k,v in pairs(neurons) do\n        n = n-1\n        if n == 0 then\n            return k\n        end\n    end\n    \n    return 0\nend\n\nfunction containsLink(genes, link)\n    for i=1,#genes do\n        local gene = genes[i]\n        if gene.into == link.into and gene.out == link.out then\n            return true\n        end\n    end\nend\n\nfunction pointMutate(genome)\n    local step = genome.mutationRates[\"step\"]\n    \n    for i=1,#genome.genes do\n        local gene = genome.genes[i]\n        if math.random() < PerturbChance then\n            gene.weight = gene.weight + math.random() * step*2 - step\n        else\n            gene.weight = math.random()*4-2\n        end\n    end\nend\n\nfunction linkMutate(genome, forceBias)\n    local neuron1 = randomNeuron(genome.genes, false)\n    local neuron2 = randomNeuron(genome.genes, true)\n     \n    local newLink = newGene()\n    if neuron1 <= Inputs and neuron2 <= Inputs then\n        --Both input nodes\n        return\n    end\n    if neuron2 <= Inputs then\n        -- Swap output and input\n        local temp = neuron1\n        neuron1 = neuron2\n        neuron2 = temp\n    end\n\n    newLink.into = neuron1\n    newLink.out = neuron2\n    if forceBias then\n        newLink.into = Inputs\n    end\n    \n    if containsLink(genome.genes, newLink) then\n        return\n    end\n    newLink.innovation = newInnovation()\n    newLink.weight = math.random()*4-2\n    \n    table.insert(genome.genes, newLink)\nend\n\nfunction nodeMutate(genome)\n    if #genome.genes == 0 then\n        return\n    end\n\n    genome.maxneuron = genome.maxneuron + 1\n\n    local gene = genome.genes[math.random(1,#genome.genes)]\n    if not gene.enabled then\n        return\n    end\n    gene.enabled = false\n    \n    local gene1 = copyGene(gene)\n    gene1.out = genome.maxneuron\n    gene1.weight = 1.0\n    gene1.innovation = newInnovation()\n    gene1.enabled = true\n    table.insert(genome.genes, gene1)\n    \n    local gene2 = copyGene(gene)\n    gene2.into = genome.maxneuron\n    gene2.innovation = newInnovation()\n    gene2.enabled = true\n    table.insert(genome.genes, gene2)\nend\n\nfunction enableDisableMutate(genome, enable)\n    local candidates = {}\n    for _,gene in pairs(genome.genes) do\n        if gene.enabled == not enable then\n            table.insert(candidates, gene)\n        end\n    end\n    \n    if #candidates == 0 then\n        return\n    end\n    \n    local gene = candidates[math.random(1,#candidates)]\n    gene.enabled = not gene.enabled\nend\n\nfunction mutate(genome)\n    for mutation,rate in pairs(genome.mutationRates) do\n        if math.random(1,2) == 1 then\n            genome.mutationRates[mutation] = 0.95*rate\n        else\n            genome.mutationRates[mutation] = 1.05263*rate\n        end\n    end\n\n    if math.random() < genome.mutationRates[\"connections\"] then\n        pointMutate(genome)\n    end\n    \n    local p = genome.mutationRates[\"link\"]\n    while p > 0 do\n        if math.random() < p then\n            linkMutate(genome, false)\n        end\n        p = p - 1\n    end\n\n    p = genome.mutationRates[\"bias\"]\n    while p > 0 do\n        if math.random() < p then\n            linkMutate(genome, true)\n        end\n        p = p - 1\n    end\n    \n    p = genome.mutationRates[\"node\"]\n    while p > 0 do\n        if math.random() < p then\n            nodeMutate(genome)\n        end\n        p = p - 1\n    end\n    \n    p = genome.mutationRates[\"enable\"]\n    while p > 0 do\n        if math.random() < p then\n            enableDisableMutate(genome, true)\n        end\n        p = p - 1\n    end\n\n    p = genome.mutationRates[\"disable\"]\n    while p > 0 do\n        if math.random() < p then\n            enableDisableMutate(genome, false)\n        end\n        p = p - 1\n    end\nend\n\nfunction disjoint(genes1, genes2)\n    local i1 = {}\n    for i = 1,#genes1 do\n        local gene = genes1[i]\n        i1[gene.innovation] = true\n    end\n\n    local i2 = {}\n    for i = 1,#genes2 do\n        local gene = genes2[i]\n        i2[gene.innovation] = true\n    end\n    \n    local disjointGenes = 0\n    for i = 1,#genes1 do\n        local gene = genes1[i]\n        if not i2[gene.innovation] then\n            disjointGenes = disjointGenes+1\n        end\n    end\n    \n    for i = 1,#genes2 do\n        local gene = genes2[i]\n        if not i1[gene.innovation] then\n            disjointGenes = disjointGenes+1\n        end\n    end\n    \n    local n = math.max(#genes1, #genes2)\n    \n    return disjointGenes / n\nend\n\nfunction weights(genes1, genes2)\n    local i2 = {}\n    for i = 1,#genes2 do\n        local gene = genes2[i]\n        i2[gene.innovation] = gene\n    end\n\n    local sum = 0\n    local coincident = 0\n    for i = 1,#genes1 do\n        local gene = genes1[i]\n        if i2[gene.innovation] ~= nil then\n            local gene2 = i2[gene.innovation]\n            sum = sum + math.abs(gene.weight - gene2.weight)\n            coincident = coincident + 1\n        end\n    end\n    \n    return sum / coincident\nend\n    \nfunction sameSpecies(genome1, genome2)\n    local dd = DeltaDisjoint*disjoint(genome1.genes, genome2.genes)\n    local dw = DeltaWeights*weights(genome1.genes, genome2.genes) \n    return dd + dw < DeltaThreshold\nend\n\nfunction rankGlobally()\n    local global = {}\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        for g = 1,#species.genomes do\n            table.insert(global, species.genomes[g])\n        end\n    end\n    table.sort(global, function (a,b)\n        return (a.fitness < b.fitness)\n    end)\n    \n    for g=1,#global do\n        global[g].globalRank = g\n    end\nend\n\nfunction calculateAverageFitness(species)\n    local total = 0\n    \n    for g=1,#species.genomes do\n        local genome = species.genomes[g]\n        total = total + genome.globalRank\n    end\n    \n    species.averageFitness = total / #species.genomes\nend\n\nfunction totalAverageFitness()\n    local total = 0\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        total = total + species.averageFitness\n    end\n\n    return total\nend\n\nfunction cullSpecies(cutToOne)\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        \n        table.sort(species.genomes, function (a,b)\n            return (a.fitness > b.fitness)\n        end)\n        \n        local remaining = math.ceil(#species.genomes/2)\n        if cutToOne then\n            remaining = 1\n        end\n        while #species.genomes > remaining do\n            table.remove(species.genomes)\n        end\n    end\nend\n\nfunction breedChild(species)\n    local child = {}\n    if math.random() < CrossoverChance then\n        g1 = species.genomes[math.random(1, #species.genomes)]\n        g2 = species.genomes[math.random(1, #species.genomes)]\n        child = crossover(g1, g2)\n    else\n        g = species.genomes[math.random(1, #species.genomes)]\n        child = copyGenome(g)\n    end\n    \n    mutate(child)\n    \n    return child\nend\n\nfunction removeStaleSpecies()\n    local survived = {}\n\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        \n        table.sort(species.genomes, function (a,b)\n            return (a.fitness > b.fitness)\n        end)\n        \n        if species.genomes[1].fitness > species.topFitness then\n            species.topFitness = species.genomes[1].fitness\n            species.staleness = 0\n        else\n            species.staleness = species.staleness + 1\n        end\n        if species.staleness < StaleSpecies or species.topFitness >= pool.maxFitness then\n            table.insert(survived, species)\n        end\n    end\n\n    pool.species = survived\nend\n\nfunction removeWeakSpecies()\n    local survived = {}\n\n    local sum = totalAverageFitness()\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        breed = math.floor(species.averageFitness / sum * Population)\n        if breed >= 1 then\n            table.insert(survived, species)\n        end\n    end\n\n    pool.species = survived\nend\n\n\nfunction addToSpecies(child)\n    local foundSpecies = false\n    for s=1,#pool.species do\n        local species = pool.species[s]\n        if not foundSpecies and sameSpecies(child, species.genomes[1]) then\n            table.insert(species.genomes, child)\n            foundSpecies = true\n        end\n    end\n    \n    if not foundSpecies then\n        local childSpecies = newSpecies()\n        table.insert(childSpecies.genomes, child)\n        table.insert(pool.species, childSpecies)\n    end\nend\n\nfunction newGeneration()\n    cullSpecies(false) -- Cull the bottom half of each species\n    rankGlobally()\n    removeStaleSpecies()\n    rankGlobally()\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        calculateAverageFitness(species)\n    end\n    removeWeakSpecies()\n    local sum = totalAverageFitness()\n    local children = {}\n    for s = 1,#pool.species do\n        local species = pool.species[s]\n        breed = math.floor(species.averageFitness / sum * Population) - 1\n        for i=1,breed do\n            table.insert(children, breedChild(species))\n        end\n    end\n    cullSpecies(true) -- Cull all but the top member of each species\n    while #children + #pool.species < Population do\n        local species = pool.species[math.random(1, #pool.species)]\n        table.insert(children, breedChild(species))\n    end\n    for c=1,#children do\n        local child = children[c]\n        addToSpecies(child)\n    end\n    \n    pool.generation = pool.generation + 1\n    \n    writeFile(\"backup.\" .. pool.generation .. \".\" .. forms.gettext(saveLoadFile))\nend\n    \nfunction initializePool()\n    pool = newPool()\n\n    for i=1,Population do\n        basic = basicGenome()\n        addToSpecies(basic)\n    end\n\n    initializeRun()\nend\n\nfunction clearJoypad()\n    controller = {}\n    for b = 1,#ButtonNames do\n        controller[\"P1 \" .. ButtonNames[b]] = false\n    end\n    joypad.set(controller)\nend\n\nfunction initializeRun()\n    savestate.load(Filename);\n    rightmost = 0\n    pool.currentFrame = 0\n    timeout = TimeoutConstant\n    clearJoypad()\n    \n    local species = pool.species[pool.currentSpecies]\n    local genome = species.genomes[pool.currentGenome]\n    generateNetwork(genome)\n    evaluateCurrent()\nend\n\nfunction evaluateCurrent()\n    local species = pool.species[pool.currentSpecies]\n    local genome = species.genomes[pool.currentGenome]\n\n    inputs = getInputs()\n    controller = evaluateNetwork(genome.network, inputs)\n    \n    if controller[\"P1 Left\"] and controller[\"P1 Right\"] then\n        controller[\"P1 Left\"] = false\n        controller[\"P1 Right\"] = false\n    end\n    if controller[\"P1 Up\"] and controller[\"P1 Down\"] then\n        controller[\"P1 Up\"] = false\n        controller[\"P1 Down\"] = false\n    end\n\n    joypad.set(controller)\nend\n\nif pool == nil then\n    initializePool()\nend\n\n\nfunction nextGenome()\n    pool.currentGenome = pool.currentGenome + 1\n    if pool.currentGenome > #pool.species[pool.currentSpecies].genomes then\n        pool.currentGenome = 1\n        pool.currentSpecies = pool.currentSpecies+1\n        if pool.currentSpecies > #pool.species then\n            newGeneration()\n            pool.currentSpecies = 1\n        end\n    end\nend\n\nfunction fitnessAlreadyMeasured()\n    local species = pool.species[pool.currentSpecies]\n    local genome = species.genomes[pool.currentGenome]\n    \n    return genome.fitness ~= 0\nend\n\nfunction displayGenome(genome)\n    local network = genome.network\n    local cells = {}\n    local i = 1\n    local cell = {}\n    for dy=-BoxRadius,BoxRadius do\n        for dx=-BoxRadius,BoxRadius do\n            cell = {}\n            cell.x = 50+5*dx\n            cell.y = 70+5*dy\n            cell.value = network.neurons[i].value\n            cells[i] = cell\n            i = i + 1\n        end\n    end\n    local biasCell = {}\n    biasCell.x = 80\n    biasCell.y = 110\n    biasCell.value = network.neurons[Inputs].value\n    cells[Inputs] = biasCell\n    \n    -- cell is filled with network.neurons[MaxNodes + o].value\n    -- o is the index\n    for o = 1,Outputs do\n        cell = {}\n        cell.x = 220\n        cell.y = 30 + 8 * o\n        cell.value = network.neurons[MaxNodes + o].value\n        cells[MaxNodes+o] = cell\n        local color\n        if cell.value > 0 then\n            color = 0xFF0000FF\n        else\n            color = 0xFF000000\n        end\n        gui.drawText(223, 24+8*o, ButtonNames[o], color, 9)\n    end\n    -- file = io.open(\"debuglog.txt\", \"w\")\n    console.writeline(\"open debuglog\")\n    for n,neuron in pairs(network.neurons) do\n        console.writeline(n .. \" \" .. neuron.value)\n        -- file:write(n .. \" \")\n        -- file.write(neuron.value .. \" \")\n        \n        cell = {}\n        if n > Inputs and n <= MaxNodes then\n            cell.x = 140\n            cell.y = 40\n            cell.value = neuron.value\n            cells[n] = cell\n        end\n    end\n    -- file:close\n    for n=1,4 do\n        for _,gene in pairs(genome.genes) do\n            if gene.enabled then\n                local c1 = cells[gene.into]\n                local c2 = cells[gene.out]\n                if gene.into > Inputs and gene.into <= MaxNodes then\n                    c1.x = 0.75*c1.x + 0.25*c2.x\n                    if c1.x >= c2.x then\n                        c1.x = c1.x - 40\n                    end\n                    if c1.x < 90 then\n                        c1.x = 90\n                    end\n                    \n                    if c1.x > 220 then\n                        c1.x = 220\n                    end\n                    c1.y = 0.75*c1.y + 0.25*c2.y\n                    \n                end\n                if gene.out > Inputs and gene.out <= MaxNodes then\n                    c2.x = 0.25*c1.x + 0.75*c2.x\n                    if c1.x >= c2.x then\n                        c2.x = c2.x + 40\n                    end\n                    if c2.x < 90 then\n                        c2.x = 90\n                    end\n                    if c2.x > 220 then\n                        c2.x = 220\n                    end\n                    c2.y = 0.25*c1.y + 0.75*c2.y\n                end\n            end\n        end\n    end\n    -- 0x80808080\n    -- leftmost as view of game drawBox\n    gui.drawBox(50-BoxRadius*5-3,70-BoxRadius*5-3,50+BoxRadius*5+2,70+BoxRadius*5+2,0xFF000000, 0x80808080)\n    for n,cell in pairs(cells) do\n        if n > Inputs or cell.value ~= 0 then\n            local color = math.floor((cell.value+1)/2*256)\n            if color > 255 then color = 255 end\n            if color < 0 then color = 255 end\n            local opacity = 0xFF000000\n            if cell.value == 0 then\n                opacity = 0x50000000\n            end\n            color = opacity + color*0x10000 + color*0x100 + color\n            gui.drawBox(cell.x-2,cell.y-2,cell.x+2,cell.y+2,opacity,color)\n        end\n    end\n    for _,gene in pairs(genome.genes) do\n        if gene.enabled then\n            local c1 = cells[gene.into]\n            local c2 = cells[gene.out]\n            local opacity = 0xA0000000\n            if c1.value == 0 then\n                opacity = 0x20000000\n            end\n            \n            local color = 0x80-math.floor(math.abs(sigmoid(gene.weight))*0x80)\n            if gene.weight > 0 then \n                color = opacity + 0x8000 + 0x10000*color\n            else\n                color = opacity + 0x800000 + 0x100*color\n            end\n            gui.drawLine(c1.x+1, c1.y, c2.x-3, c2.y, color)\n        end\n    end\n    -- 0x00000000 the drawbox before the button output\n    gui.drawBox(49,71,51,78,0x00000000,0x80FF0000)\n    \n    if forms.ischecked(showMutationRates) then\n        local pos = 100\n        for mutation,rate in pairs(genome.mutationRates) do\n            gui.drawText(100, pos, mutation .. \": \" .. rate, 0xFF000000, 10)\n            pos = pos + 8\n        end\n    end\nend\n\nfunction writeFile(filename)\n        local file = io.open(filename, \"w\")\n    file:write(pool.generation .. \"\\n\")\n    file:write(pool.maxFitness .. \"\\n\")\n    file:write(#pool.species .. \"\\n\")\n        for n,species in pairs(pool.species) do\n        file:write(species.topFitness .. \"\\n\")\n        file:write(species.staleness .. \"\\n\")\n        file:write(#species.genomes .. \"\\n\")\n        for m,genome in pairs(species.genomes) do\n            file:write(genome.fitness .. \"\\n\")\n            file:write(genome.maxneuron .. \"\\n\")\n            for mutation,rate in pairs(genome.mutationRates) do\n                file:write(mutation .. \"\\n\")\n                file:write(rate .. \"\\n\")\n            end\n            file:write(\"done\\n\")\n            \n            file:write(#genome.genes .. \"\\n\")\n            for l,gene in pairs(genome.genes) do\n                file:write(gene.into .. \" \")\n                file:write(gene.out .. \" \")\n                file:write(gene.weight .. \" \")\n                file:write(gene.innovation .. \" \")\n                if(gene.enabled) then\n                    file:write(\"1\\n\")\n                else\n                    file:write(\"0\\n\")\n                end\n            end\n        end\n        end\n        file:close()\nend\n\nfunction savePool()\n    local filename = forms.gettext(saveLoadFile)\n    writeFile(filename)\nend\n\nfunction loadFile(filename)\n        local file = io.open(filename, \"r\")\n    pool = newPool()\n    pool.generation = file:read(\"*number\")\n    pool.maxFitness = file:read(\"*number\")\n    forms.settext(maxFitnessLabel, \"Max Fitness: \" .. math.floor(pool.maxFitness))\n        local numSpecies = file:read(\"*number\")\n        for s=1,numSpecies do\n        local species = newSpecies()\n        table.insert(pool.species, species)\n        species.topFitness = file:read(\"*number\")\n        species.staleness = file:read(\"*number\")\n        local numGenomes = file:read(\"*number\")\n        for g=1,numGenomes do\n            local genome = newGenome()\n            table.insert(species.genomes, genome)\n            genome.fitness = file:read(\"*number\")\n            genome.maxneuron = file:read(\"*number\")\n            local line = file:read(\"*line\")\n            while line ~= \"done\" do\n                genome.mutationRates[line] = file:read(\"*number\")\n                line = file:read(\"*line\")\n            end\n            local numGenes = file:read(\"*number\")\n            for n=1,numGenes do\n                local gene = newGene()\n                table.insert(genome.genes, gene)\n                local enabled\n                gene.into, gene.out, gene.weight, gene.innovation, enabled = file:read(\"*number\", \"*number\", \"*number\", \"*number\", \"*number\")\n                if enabled == 0 then\n                    gene.enabled = false\n                else\n                    gene.enabled = true\n                end\n                \n            end\n        end\n    end\n        file:close()\n    \n    while fitnessAlreadyMeasured() do\n        nextGenome()\n    end\n    initializeRun()\n    pool.currentFrame = pool.currentFrame + 1\nend\n \nfunction loadPool()\n    local filename = forms.gettext(saveLoadFile)\n    loadFile(filename)\nend\n\nfunction playTop()\n    local maxfitness = 0\n    local maxs, maxg\n    for s,species in pairs(pool.species) do\n        for g,genome in pairs(species.genomes) do\n            if genome.fitness > maxfitness then\n                maxfitness = genome.fitness\n                maxs = s\n                maxg = g\n            end\n        end\n    end\n    \n    pool.currentSpecies = maxs\n    pool.currentGenome = maxg\n    pool.maxFitness = maxfitness\n    forms.settext(maxFitnessLabel, \"Max Fitness: \" .. math.floor(pool.maxFitness))\n    initializeRun()\n    pool.currentFrame = pool.currentFrame + 1\n    return\nend\n\nfunction onExit()\n    forms.destroy(form)\nend\n\nwriteFile(\"temp.pool\")\n\nevent.onexit(onExit)\n\nform = forms.newform(200, 260, \"Fitness\")\nmaxFitnessLabel = forms.label(form, \"Max Fitness: \" .. math.floor(pool.maxFitness), 5, 8)\nshowNetwork = forms.checkbox(form, \"Show Map\", 5, 30)\nshowMutationRates = forms.checkbox(form, \"Show M-Rates\", 5, 52)\nrestartButton = forms.button(form, \"Restart\", initializePool, 5, 77)\nsaveButton = forms.button(form, \"Save\", savePool, 5, 102)\nloadButton = forms.button(form, \"Load\", loadPool, 80, 102)\nsaveLoadFile = forms.textbox(form, Filename .. \".pool\", 170, 25, nil, 5, 148)\nsaveLoadLabel = forms.label(form, \"Save/Load:\", 5, 129)\nplayTopButton = forms.button(form, \"Play Top\", playTop, 5, 170)\nhideBanner = forms.checkbox(form, \"Hide Banner\", 5, 190)\n\n\nwhile true do\n    local backgroundColor = 0xD0FFFFFF\n    if not forms.ischecked(hideBanner) then\n        gui.drawBox(0, 0, 300, 26, backgroundColor, backgroundColor)\n    end\n\n    local species = pool.species[pool.currentSpecies]\n    local genome = species.genomes[pool.currentGenome]\n    \n    if forms.ischecked(showNetwork) then\n        displayGenome(genome)\n    end\n    \n    if pool.currentFrame%5 == 0 then\n        evaluateCurrent()\n    end\n\n    joypad.set(controller)\n\n    getPositions()\n    if marioX > rightmost then\n        rightmost = marioX\n        timeout = TimeoutConstant\n    end\n    \n    timeout = timeout - 1\n    \n    \n    local timeoutBonus = pool.currentFrame / 4\n    if timeout + timeoutBonus <= 0 then\n        local fitness = rightmost - pool.currentFrame / 2\n        if gameinfo.getromname() == \"Super Mario World (USA)\" and rightmost > 4816 then\n            fitness = fitness + 1000\n        end\n        if gameinfo.getromname() == \"Super Mario Bros.\" and rightmost > 3186 then\n            fitness = fitness + 1000\n        end\n        if fitness == 0 then\n            fitness = -1\n        end\n        genome.fitness = fitness\n        \n        if fitness > pool.maxFitness then\n            pool.maxFitness = fitness\n            forms.settext(maxFitnessLabel, \"Max Fitness: \" .. math.floor(pool.maxFitness))\n            writeFile(\"backup.\" .. pool.generation .. \".\" .. forms.gettext(saveLoadFile))\n        end\n        \n        -- console.writeline(\"Gen \" .. pool.generation .. \" species \" .. pool.currentSpecies .. \" genome \" .. pool.currentGenome .. \" fitness: \" .. fitness)\n        pool.currentSpecies = 1\n        pool.currentGenome = 1\n        while fitnessAlreadyMeasured() do\n            nextGenome()\n        end\n        initializeRun()\n    end\n\n    local measured = 0\n    local total = 0\n    for _,species in pairs(pool.species) do\n        for _,genome in pairs(species.genomes) do\n            total = total + 1\n            if genome.fitness ~= 0 then\n                measured = measured + 1\n            end\n        end\n    end\n    if not forms.ischecked(hideBanner) then\n        gui.drawText(0, 0, \"Gen \" .. pool.generation .. \" species \" .. pool.currentSpecies .. \" genome \" .. pool.currentGenome .. \" (\" .. math.floor(measured/total*100) .. \"%)\", 0xFF000000, 11)\n        gui.drawText(0, 12, \"Fitness: \" .. math.floor(rightmost - (pool.currentFrame) / 2 - (timeout + timeoutBonus)*2/3), 0xFF000000, 11)\n        gui.drawText(100, 12, \"Max Fitness: \" .. math.floor(pool.maxFitness), 0xFF000000, 11)\n    end\n        \n    pool.currentFrame = pool.currentFrame + 1\n\n    emu.frameadvance();\nend",
 			"file": "NEATEvolve.lua",
+			"file_size": 35258,
+			"file_write_time": 131179949600594336,
 			"settings":
 			{
-				"buffer_size": 33686,
+				"buffer_size": 34105,
 				"line_ending": "Windows"
 			}
 		},
@@ -1318,6 +1347,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"network.neurons",
+			"neuron",
+			"onsole.writeline",
+			"write(",
+			"file:write(",
+			"file:write(pool.generation .. \"\\n\")",
+			"drawText",
+			"255",
+			"BoxRadius",
+			"0x80808080",
+			"gui",
+			"Inputs",
+			"pool.species",
+			"species",
+			"for ",
+			"for",
+			"m",
+			"write",
+			"generation",
+			"cons",
+			"getInputs",
+			"inputs",
+			"cells",
+			"gene.into",
+			"inputs",
+			"BoxRadius",
+			"evaluateNetwork",
+			"gene.into",
+			"done",
+			"neurons",
+			"genome.network",
+			"rightmost",
+			"1000",
+			"fitness",
+			"genome.fitness",
+			"write",
+			"write(",
+			"(?<=done\\n).*(?=\\n)",
+			"(?<=done\\n ).*(?=\\n)",
+			"done\\n*",
+			"done\\n",
+			"done\\n*",
+			"write(",
+			"\"connections",
+			"connections",
 			"write(",
 			"write",
 			"file:write",
@@ -1400,52 +1474,7 @@
 			"mywifi",
 			"ssid",
 			"mywifi",
-			"ssid",
-			"pipcache",
-			"tag",
-			"git tag",
-			"git commit",
-			"dpi",
-			"git fetch",
-			"dpi",
-			"dip",
-			".dip",
-			"pipcache",
-			"ctaAlgo",
-			"mingw",
-			"命令行",
-			"vc命令行",
-			"CMAKE_BINARY_DIR",
-			"LIBRARY_OUTPUT_PATH",
-			"python",
-			"pthread",
-			"pthread.h",
-			"PYTHON_LIBRARY",
-			"Boost_LIBRARIES",
-			"CTPAPI_MD_LIBRARY",
-			"Boost_LIBRARIES",
-			"Boost_INCLUDE_DIRS",
-			"Boost_LIBRARIES",
-			"python",
-			"boost",
-			"boost_python",
-			"pipinstal",
-			"CMake",
-			"clmake",
-			"catch",
-			"快期",
-			"boost/python",
-			"module",
-			"AppWizard",
-			"lts_l2_function",
-			"lts_td_function",
-			"processFunction",
-			"createFunction",
-			"find ./",
-			"find /",
-			"pipinstall",
-			"VtGateway",
-			"MainEngine"
+			"ssid"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1498,7 +1527,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 547766,
+						"buffer_size": 451758,
 						"regions":
 						{
 						},
@@ -1586,40 +1615,8 @@
 								"bh_angle_content"
 							],
 							"incomplete_sync": null,
+							"is_init_dirty_state": false,
 							"open_with_edit": true,
-							"origin_encoding": "ASCII",
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "backup.29.DP1.state.pool",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 622724,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"incomplete_sync": null,
 							"origin_encoding": "ASCII",
 							"remote_loading": false,
 							"synced": false,
@@ -1629,24 +1626,237 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "luaAPI.lua",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 498,
+						"buffer_size": 809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								710,
+								710
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Lua/Lua.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Python2.7.9/dowload/readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1726,26 +1936,168 @@
 								"bh_angle_content"
 							],
 							"incomplete_sync": null,
-							"open_with_edit": true,
+							"is_init_dirty_state": false,
+							"is_xml": false,
+							"origin_encoding": "ASCII",
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Lua/Lua.sublime-syntax"
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "backup.29.DP1.state.pool",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 622724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1850,
+								1850
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"auto_name": "39",
+							"bracket_highlighter.busy": false,
+							"default_dir": "D:\\GitHub\\MarI-O",
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "NeatEvolve2.lua",
 					"semi_transient": false,
 					"settings":
@@ -1757,8 +2109,8 @@
 						"selection":
 						[
 							[
-								6559,
-								6559
+								20889,
+								20889
 							]
 						],
 						"settings":
@@ -1770,8 +2122,8 @@
 								{
 									"1":
 									[
-										6556,
-										6559
+										21075,
+										21078
 									]
 								},
 								"icon":
@@ -1786,8 +2138,8 @@
 								{
 									"1":
 									[
-										6352,
-										6360
+										20699,
+										20701
 									]
 								},
 								"unmatched":
@@ -1796,63 +2148,64 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"incomplete_sync": null,
+							"is_init_dirty_state": false,
 							"open_with_edit": true,
 							"origin_encoding": "ASCII",
 							"remote_loading": false,
@@ -1861,27 +2214,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5119.0,
+						"translation.y": 17071.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "NEATEvolve.lua",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 33686,
+						"buffer_size": 34105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1274,
-								1274
+								8783,
+								8783
 							]
 						],
 						"settings":
@@ -1893,8 +2246,8 @@
 								{
 									"1":
 									[
-										1273,
-										1274
+										8782,
+										8783
 									]
 								},
 								"icon":
@@ -1909,8 +2262,8 @@
 								{
 									"1":
 									[
-										1272,
-										1273
+										8781,
+										8782
 									]
 								},
 								"unmatched":
@@ -1919,63 +2272,64 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"incomplete_sync": null,
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"remote_loading": false,
 							"synced": false,
@@ -1984,14 +2338,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1404.0,
+						"translation.y": 5443.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2181,6 +2535,7 @@
 							"default_dir": "d:\\GitHub\\MarI-O",
 							"detect_indentation": false,
 							"incomplete_sync": null,
+							"is_init_dirty_state": false,
 							"line_numbers": false,
 							"output_tag": 1,
 							"remote_loading": false,
@@ -2195,7 +2550,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -2229,7 +2584,7 @@
 		"cols":
 		[
 			0.0,
-			0.365137614679,
+			0.229357798165,
 			1.0
 		],
 		"rows":
@@ -2277,12 +2632,12 @@
 		"selected_items":
 		[
 			[
-				"n",
+				"",
 				"NEATEvolve.lua"
 			],
 			[
-				"",
-				"liebiaojiexi.py"
+				"n",
+				"NEATEvolve.lua"
 			],
 			[
 				"python",

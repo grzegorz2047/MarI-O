@@ -18,6 +18,10 @@ https://en.wikipedia.org/wiki/Evolutionary_algorithm
 https://en.wikipedia.org/wiki/Artificial_neural_network
 
 BizHawk Emulator: http://tasvideos.org/BizHawk.html
+already downloaded to the 360yun,please search bizhawk
+1.BizHawk-1.11.7.zip
+2.bizhawk_prereqs_v1.3.zip
+3.Super Mario World %28USA%29.smc
 
 SethBling Twitter: http://twitter.com/sethbling
 
@@ -30,3 +34,5 @@ SethBling Website: http://sethbling.com
 SethBling Shirts: http://sethbling.spreadshirt.com
 
 Suggest Ideas: http://reddit.com/r/SethBlingSuggestions
+
+
